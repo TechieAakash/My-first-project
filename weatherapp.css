@@ -1,0 +1,111 @@
+*{
+    padding : 0;
+    margin : 0;
+}
+body{
+    background-image: url('https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-b1b0-622f-96cc-12ff6e679f8d/raw?se=2025-07-22T18%3A52%3A52Z&sp=r&sv=2024-08-04&sr=b&scid=125134ac-a7b4-5de7-9b87-d0ba20cd2da2&skoid=5cab1ff4-c20d-41dc-babb-df0c2cc21dd4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-21T23%3A22%3A38Z&ske=2025-07-22T23%3A22%3A38Z&sks=b&skv=2024-08-04&sig=qZ9oRjDeMju7aHTTr2s9fRhewADkfD0%2BD1hd3kR5zVg%3D');
+    background-repeat: no-repeat;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+.container{
+    height : 600px;
+    width : 30%;
+    border : none;
+    margin-top: 2.5rem;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width : 400px;
+    height :500px;
+    border: none;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #34ebc9;
+    border-radius: 20px;
+}
+.input{
+    height : 45px;
+    width : 300px;
+    border: none;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.input button{
+    height : 50px;
+    width : 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    border : none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+main input{
+    height : 40px;
+    width : 200px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.temp{
+    height : 100px;
+    width : 350px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    color : white;
+}
+.temp i{
+    font-size: 70px;
+    color : black;
+}
+
+.extra{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.humidity{
+    height : 90px;
+    width : 120px;
+    border : none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-;
+    font-size: 20px;
+    color : darkred;
+}
+.humidity i{
+    font-size : 40px;
+    margin-right: 20px;
+    color : black;
+}
+.windspeed{
+    height : 90px;
+    width : 120px;
+    border : none;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color : darkred;
+}
+.windspeed i{
+    font-size : 40px;
+    margin-right: 20px;
+    color  : black;
+}
