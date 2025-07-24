@@ -1,0 +1,90 @@
+*{
+    padding : 0;
+    margin : 0;
+}
+body{
+    background-image: url('https://sdmntprwestus3.oaiusercontent.com/files/00000000-8f8c-61fd-982b-4b606b95a9ef/raw?se=2025-07-23T17%3A36%3A48Z&sp=r&sv=2024-08-04&sr=b&scid=d95d967c-2455-5f11-b65c-350c8162a583&skoid=a3412ad4-1a13-47ce-91a5-c07730964f35&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-22T23%3A08%3A38Z&ske=2025-07-23T23%3A08%3A38Z&sks=b&skv=2024-08-04&sig=TxYHKJmUPvhimqAQdxJmkZQM0urRxKifwJmAfxYPAeI%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 1200px;
+    height  : 620px;
+    border: none;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.details{
+    height : 600px;
+    width : 600px;
+    border : none;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 20px;
+}
+.name{
+    font-size : 40px;
+    background-color: lightgoldenrodyellow;
+    color : red;
+}
+.dishphoto{
+    height : 500px;
+    width : 500px;
+    border : none;
+    background-image: url('https://www.themealdb.com/images/media/meals/wuxrtu1483564410.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.search{
+    height : 50px;
+    width : 330px;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.search input{
+    height : 40px;
+    width : 200px;
+    border-radius: 10px;
+    text-align: center;
+    border  : none;
+    font-size: 20px;
+    border : none;
+}
+.search button{
+    height : 50px;
+    width : 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    border : none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+}
+.about{
+    font-size: 20px;
+    font-weight: 700;
+}
+.procedure{
+    overflow: scroll;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: greenyellow;
+}
+.ingre{
+    overflow: scroll;
+    font-size: 24px;
+}
